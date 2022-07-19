@@ -1,0 +1,44 @@
+/* ========== IMPORTAR ESTILOS D TEXTO ========== */
+
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300&display=swap');
+
+/* ========== CARACTERISTICAS GENERALES ========== */
+
+body {
+    font-family: 'Taviraj', sans-serif;
+    overflow-x: hidden;
+}
+
+/* ========== MENU ========== */
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ========== CARRUSEL DE IMAGENES ========== */
+
+
+/* ========== MEDIA QUERIES PANTALLA SM ========== */
+@media (max-width:768px) {
+    #intro{
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+/* ========== MEDIA QUERIES PANTALLA EXTRA-SM ========== */
+@media (max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
